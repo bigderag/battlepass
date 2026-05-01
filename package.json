@@ -1,0 +1,7 @@
+{
+  "name": "boos",
+  "version": "1.0.0",
+  "description": "A lightweight edge utility service.",
+  "private": true,
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "boos",
+  "regions": ["fra1"],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/app/index" }
+  ],
+  "trailingSlash": false
+}
