@@ -1,14 +1,8 @@
 {
   "version": 2,
   "name": "boos",
-  "regions": ["fra1"],
-  "functions": {
-    "app/index.js": {
-      "runtime": "edge"
-    }
-  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/app/index" }
+    { "source": "/(.*)", "destination": "/api/index" }
   ],
   "trailingSlash": false
 }
