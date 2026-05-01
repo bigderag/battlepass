@@ -2,6 +2,11 @@
   "version": 2,
   "name": "boos",
   "regions": ["fra1"],
+  "functions": {
+    "app/index.js": {
+      "runtime": "edge"
+    }
+  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/app/index" }
   ],
